@@ -1,5 +1,6 @@
 import time
 import pprint
+import json
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -52,70 +53,112 @@ class Compare():
 		self.data2 = self.parseFormat(self.raw_data2)
 
 
+	def addSecond(self):
+		index = 0
+		for entry in self.data1:
+			time_sec = 0
+
+			t = entry['time'].split(':')
+
+			time_sec += int(t[0]) * 60  
+			time_sec += int(t[1])
+			time_sec += float('.' + t[2])
+
+			entry['time_second'] = time_sec
+			self.data1[index] = entry
+			index += 1
+
+		index = 0
+		for entry in self.data2:
+			time_sec = 0
+
+			t = entry['time'].split(':')
+
+			time_sec += int(t[0]) * 60  
+			time_sec += int(t[1])
+			time_sec += float('.' + t[2])
+
+			entry['time_second'] = time_sec
+			self.data2[index] = entry
+			index += 1
+
+
+	def addPercent(self):
+		index = 0
+		for entry in self.data1:
+			rank = entry['rank'].split('/')
+
+			numerator = int(rank[0])
+			denominator = int(rank[1])
+			percentage = round((100 * (numerator/denominator)), 2)
+
+
+			entry['rank_percent'] = percentage
+			self.data1[index] = entry
+			index += 1
+
+		index = 0
+		for entry in self.data2:
+			rank = entry['rank'].split('/')
+
+			numerator = int(rank[0])
+			denominator = int(rank[1])
+			percentage = round((100 * (numerator/denominator)), 2)
+
+			entry['rank_percent'] = percentage
+			self.data2[index] = entry
+			index += 1
+
+
 	def comparePlayers(self):
 
 		compareData = []
 
-		for map_ in self.maps:
-			d = {}
-			d['map'] = map_
+		map_index = 0
 
+		while map_index < len(self.maps):
 
-			for entry1, entry2 in zip(self.data1, self.data2):
+			map_ = self.maps[map_index]
+			d = {'map': map_}
 
-				temp_d['ranks'] = {}
-				temp_d['times'] = {}
+			d['ranks'] = {}
+			d['times'] = {}
 
-				### for first player
-				p_rank1 = {self.player1: [ entry1['rank'] ]}#, entry1['rank_percent'] ]}
-				p_time1 = {self.player1: [ entry1['time'], entry1['time_sec'] ]}
+			player1_maps = [entry['map'] for entry in self.data1]
+			player2_maps = [entry['map'] for entry in self.data2]
+
+			### PLAYER ONE
+			if map_ in player1_maps:
+				entry = self.data1[player1_maps.index(map_)]
+
+				p_rank1 = {self.player1: [ entry['rank'], entry['rank_percent'] ]}
+				p_time1 = {self.player1: [ entry['time'], entry['time_second'] ]}
+		
 				d['ranks'].update(p_rank1)
-				temp_d['times'].update(p_time1)
+				d['times'].update(p_time1)
+			else:
+				d['ranks'].update({self.player1: "N/A"})
+				d['times'].update({self.player1: "N/A"})
 
-				# for second player
-				p_rank2 = {self.player2: [ entry2['rank'] ]}#, entry2['rank_percent'] ]}
-				p_time2 = {self.player2: [ entry2['time'], entry2['time_sec'] ]}
+			### PLAYER TWO
+			if map_ in player2_maps:
+				entry = self.data2[player1_maps.index(map_)]
+
+				p_rank2 = {self.player2: [ entry['rank'], entry['rank_percent'] ]}
+				p_time2 = {self.player2: [ entry['time'], entry['time_second'] ]}
+
 				d['ranks'].update(p_rank2)
-				temp_d['times'].update(p_time2)
+				d['times'].update(p_time2)
+			else:
+				d['ranks'].update({self.player2: "N/A"})
+				d['times'].update({self.player2: "N/A"})
+
 
 			compareData.append(d)
+			map_index += 1
+
 
 		self.compareData = compareData
-
-
-
-	def addSecond(self):
-		index = 0
-		for entry1, entry2 in zip(self.data1, self.data2):
-			if entry1['map'] == entry2['map']:
-				time_sec1 = 0
-				time_sec2 = 0
-
-				t1 = entry1['time'].split(':')
-				t2 = entry2['time'].split(':')
-
-				time_sec1 += int(t1[0]) * 60
-				time_sec2 += int(t2[0]) * 60
-
-				time_sec1 += int(t1[1])
-				time_sec2 += int(t2[1])
-
-				time_sec1 += float('.' + t1[2])
-				time_sec2 += float('.' + t2[2])
-
-				entry1['time_sec'] = time_sec1
-				self.data1[index] = entry1
-
-				entry2['time_sec'] = time_sec2
-				self.data2[index] = entry2
-
-				index += 1
-
-
-
-	def addPercent(self):
-		pass
-
 
 
 
@@ -149,12 +192,16 @@ compare = Compare('al1', 'yogurtt', 'al1.txt', 'yogurtt.txt')
 # pprint(compare.maps)
 compare.parseFormatData()
 compare.addSecond()
-pp.pprint(compare.data1)
+compare.addPercent()
 compare.comparePlayers()
 pp.pprint(compare.compareData)
+
+with open('compare.json', 'w+') as fo:
+	fo.write(f"{compare.player1} & {compare.player2}")
+	json.dump(compare.compareData, fo, indent=4)
+	print('Done writing to json file')
+
 exit(0)
-# compare.secTime()
-# compare.getBetter()
 
 
 ### return an error, check each map completions of each map,
