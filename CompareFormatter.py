@@ -1,10 +1,11 @@
-import time
-import pprint
 import json
 
-pp = pprint.PrettyPrinter(indent=4)
-
 class CompareFormatter():
+
+	MAPS_PATH = 'maps.txt'
+	with open(MAPS_PATH, 'r') as f:
+		maps = [map_.strip() for map_ in f.readlines()]
+
 
 	def __init__(self, player1, player2, p1_file, p2_file):
 		self.player1 = player1
@@ -18,11 +19,6 @@ class CompareFormatter():
 		with open(self.p2_file, 'r') as f:
 			self.raw_data2 = f.readlines()
 
-		with open("maps.txt", 'r') as f:
-			self.maps = [map_.strip() for map_ in f.readlines()]
-
-	def isValid(self):
-		pass
 
 	@staticmethod
 	def parseFormat(raw_data):
@@ -110,15 +106,15 @@ class CompareFormatter():
 			index += 1
 
 
-	def comparePlayers(self):
+	def comparePlayersFormat(self):
 
 		compareData = []
 
 		map_index = 0
 
-		while map_index < len(self.maps):
+		while map_index < len(CompareFormatter.maps):
 
-			map_ = self.maps[map_index]
+			map_ = CompareFormatter.maps[map_index]
 			d = {'map': map_}
 
 			d['ranks'] = {}
@@ -142,7 +138,7 @@ class CompareFormatter():
 
 			### PLAYER TWO
 			if map_ in player2_maps:
-				entry = self.data2[player1_maps.index(map_)]
+				entry = self.data2[player2_maps.index(map_)]
 
 				p_rank2 = {self.player2: [ entry['rank'], entry['rank_percent'] ]}
 				p_time2 = {self.player2: [ entry['time'], entry['time_second'] ]}
@@ -160,48 +156,13 @@ class CompareFormatter():
 
 		self.compareData = compareData
 
+	def createFormattedJSON(self):
+		FILE_NAME = "{}&{}".format(self.player1, self.player2)
+		FILE_PATH = "FormattedCompares/{}.json".format(FILE_NAME)
+		with open(FILE_PATH, 'w+') as fo:
+			json.dump(self.compareData, fo, indent=4)
 
 
-
-	# def getBetter(self):
-	# 	index = 0
-	# 	for entry1, entry2 in zip(self.data1, self.data2):
-	# 		if entry1['map'] == entry2['map']:
-	# 			t1 = entry1['time_sec']
-	# 			t2 = entry2['time_sec']
-
-	# 			if t1 > t2:
-	# 				entry1['better'] = True
-	# 				self.data1[index] = entry1
-	# 				entry2['better'] = False
-	# 				self.data2[index] = entry2
-	# 				index += 1
-	# 			elif t2 > t1:
-	# 				entry1['better'] = False
-	# 				self.data1[index] = entry1
-	# 				entry2['better'] = True
-	# 				self.data2[index] = entry2
-	# 				index += 1
-	# 			else:
-	# 				raise ValueError("Same time?")
-
-
-
-
-compare = CompareFormatter('al1', 'yogurtt', 'al1.txt', 'yogurtt.txt')
-# pprint(compare.maps)
-compare.parseFormatData()
-compare.addSecond()
-compare.addPercent()
-compare.comparePlayers()
-pp.pprint(compare.compareData)
-
-with open('compare.json', 'w+') as fo:
-	fo.write(f"// {compare.player1} & {compare.player2}" + '\n')
-	json.dump(compare.compareData, fo, indent=4)
-	print('Done writing to json file')
-
-exit(0)
 
 
 ### return an error, check each map completions of each map,
