@@ -2,21 +2,21 @@
     {
         "map": "surf_4head_csgo",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "42/74",
                 56.76
             ],
-            "Jacket": [
+            "peter": [
                 "74/74",
                 100.0
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:07:13",
                 67.13
             ],
-            "Jacket": [
+            "peter": [
                 "01:36:53",
                 96.53
             ]
@@ -25,21 +25,21 @@
     {
         "map": "surf_ace_fix",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "39/3759",
                 1.04
             ],
-            "Jacket": [
+            "peter": [
                 "5/3759",
                 0.13
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:44:14",
                 44.14
             ],
-            "Jacket": [
+            "peter": [
                 "00:41:70",
                 41.7
             ]
@@ -48,21 +48,21 @@
     {
         "map": "surf_aether_csgo",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "32/117",
                 27.35
             ],
-            "Jacket": [
+            "peter": [
                 "4/117",
                 3.42
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:50:49",
                 50.49
             ],
-            "Jacket": [
+            "peter": [
                 "00:46:05",
                 46.05
             ]
@@ -71,21 +71,21 @@
     {
         "map": "surf_aircontrol_ksf",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "27/11963",
                 0.23
             ],
-            "Jacket": [
+            "peter": [
                 "8/11963",
                 0.07
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:41:76",
                 41.76
             ],
-            "Jacket": [
+            "peter": [
                 "00:41:13",
                 41.13
             ]
@@ -94,21 +94,21 @@
     {
         "map": "surf_akai_final",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "14/3121",
                 0.45
             ],
-            "Jacket": [
+            "peter": [
                 "45/3121",
                 1.44
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:37:31",
                 37.31
             ],
-            "Jacket": [
+            "peter": [
                 "00:40:75",
                 40.75
             ]
@@ -117,21 +117,21 @@
     {
         "map": "surf_amplitude_light",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "8/237",
                 3.38
             ],
-            "Jacket": [
+            "peter": [
                 "1/237",
                 0.42
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:59:28",
                 59.28
             ],
-            "Jacket": [
+            "peter": [
                 "00:52:60",
                 52.6
             ]
@@ -140,21 +140,21 @@
     {
         "map": "surf_and_destroy",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "17/783",
                 2.17
             ],
-            "Jacket": [
+            "peter": [
                 "1/783",
                 0.13
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:32:50",
                 32.5
             ],
-            "Jacket": [
+            "peter": [
                 "00:30:00",
                 30.0
             ]
@@ -163,21 +163,21 @@
     {
         "map": "surf_annoyance_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "8/222",
                 3.6
             ],
-            "Jacket": [
+            "peter": [
                 "1/222",
                 0.45
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "02:27:83",
                 147.83
             ],
-            "Jacket": [
+            "peter": [
                 "01:56:19",
                 116.19
             ]
@@ -186,21 +186,21 @@
     {
         "map": "surf_autism",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "30/3230",
                 0.93
             ],
-            "Jacket": [
+            "peter": [
                 "9/3230",
                 0.28
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:40:12",
                 40.12
             ],
-            "Jacket": [
+            "peter": [
                 "00:39:24",
                 39.24
             ]
@@ -209,21 +209,21 @@
     {
         "map": "surf_aweles",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "46/1290",
                 3.57
             ],
-            "Jacket": [
+            "peter": [
                 "3/1290",
                 0.23
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:45:66",
                 45.66
             ],
-            "Jacket": [
+            "peter": [
                 "00:41:95",
                 41.95
             ]
@@ -232,21 +232,21 @@
     {
         "map": "surf_beginner",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "49/7345",
                 0.67
             ],
-            "Jacket": [
+            "peter": [
                 "5/7345",
                 0.07
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:47:08",
                 47.08
             ],
-            "Jacket": [
+            "peter": [
                 "00:45:10",
                 45.1
             ]
@@ -255,21 +255,21 @@
     {
         "map": "surf_believe",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "16/85",
                 18.82
             ],
-            "Jacket": [
+            "peter": [
                 "3/85",
                 3.53
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:57:70",
                 57.7
             ],
-            "Jacket": [
+            "peter": [
                 "00:54:77",
                 54.77
             ]
@@ -278,38 +278,38 @@
     {
         "map": "surf_benevolent",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "14/484",
                 2.89
             ],
-            "Jacket": "N/A"
+            "peter": "N/A"
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:53:36",
                 53.36
             ],
-            "Jacket": "N/A"
+            "peter": "N/A"
         }
     },
     {
         "map": "surf_bonkers_v2",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/746",
                 0.94
             ],
-            "Jacket": [
+            "peter": [
                 "5/746",
                 0.67
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:41:41",
                 41.41
             ],
-            "Jacket": [
+            "peter": [
                 "00:40:88",
                 40.88
             ]
@@ -318,21 +318,21 @@
     {
         "map": "surf_borderlands",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "36/1896",
                 1.9
             ],
-            "Jacket": [
+            "peter": [
                 "10/1896",
                 0.53
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:36:87",
                 96.87
             ],
-            "Jacket": [
+            "peter": [
                 "01:31:89",
                 91.89
             ]
@@ -341,21 +341,21 @@
     {
         "map": "surf_calycate2",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "37/814",
                 4.55
             ],
-            "Jacket": [
+            "peter": [
                 "5/814",
                 0.61
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:51:92",
                 51.92
             ],
-            "Jacket": [
+            "peter": [
                 "00:49:01",
                 49.01
             ]
@@ -364,21 +364,21 @@
     {
         "map": "surf_calycate_csgo",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "24/1482",
                 1.62
             ],
-            "Jacket": [
+            "peter": [
                 "5/1482",
                 0.34
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:34:66",
                 34.66
             ],
-            "Jacket": [
+            "peter": [
                 "00:33:39",
                 33.39
             ]
@@ -387,21 +387,21 @@
     {
         "map": "surf_chaos_rg",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "16/658",
                 2.43
             ],
-            "Jacket": [
+            "peter": [
                 "7/658",
                 1.06
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:39:11",
                 99.11
             ],
-            "Jacket": [
+            "peter": [
                 "01:33:21",
                 93.21
             ]
@@ -410,21 +410,21 @@
     {
         "map": "surf_classics",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "22/1141",
                 1.93
             ],
-            "Jacket": [
+            "peter": [
                 "24/1141",
                 2.1
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "09:14:60",
                 554.6
             ],
-            "Jacket": [
+            "peter": [
                 "09:16:90",
                 556.9
             ]
@@ -433,21 +433,21 @@
     {
         "map": "surf_colors_beta1",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "13/758",
                 1.72
             ],
-            "Jacket": [
+            "peter": [
                 "1/758",
                 0.13
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:17:69",
                 77.69
             ],
-            "Jacket": [
+            "peter": [
                 "01:04:66",
                 64.66
             ]
@@ -456,21 +456,21 @@
     {
         "map": "surf_colours",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "19/2996",
                 0.63
             ],
-            "Jacket": [
+            "peter": [
                 "17/2996",
                 0.57
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:21:99",
                 81.99
             ],
-            "Jacket": [
+            "peter": [
                 "01:20:60",
                 80.6
             ]
@@ -479,21 +479,21 @@
     {
         "map": "surf_colum_2",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "4/1045",
                 0.38
             ],
-            "Jacket": [
+            "peter": [
                 "36/1045",
                 3.44
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:31:58",
                 31.58
             ],
-            "Jacket": [
+            "peter": [
                 "00:33:29",
                 33.29
             ]
@@ -502,21 +502,21 @@
     {
         "map": "surf_colum_up",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "6/2512",
                 0.24
             ],
-            "Jacket": [
+            "peter": [
                 "7/2512",
                 0.28
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:30:76",
                 30.76
             ],
-            "Jacket": [
+            "peter": [
                 "00:30:79",
                 30.79
             ]
@@ -525,21 +525,21 @@
     {
         "map": "surf_cosmic",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "6/187",
                 3.21
             ],
-            "Jacket": [
+            "peter": [
                 "3/187",
                 1.6
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:29:80",
                 29.8
             ],
-            "Jacket": [
+            "peter": [
                 "00:29:10",
                 29.1
             ]
@@ -548,21 +548,21 @@
     {
         "map": "surf_crzyfrog_reloaded_fix",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "15/405",
                 3.7
             ],
-            "Jacket": [
+            "peter": [
                 "2/405",
                 0.49
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:03:87",
                 63.87
             ],
-            "Jacket": [
+            "peter": [
                 "00:59:54",
                 59.54
             ]
@@ -571,21 +571,21 @@
     {
         "map": "surf_deathstar",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "18/1028",
                 1.75
             ],
-            "Jacket": [
+            "peter": [
                 "5/1028",
                 0.49
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:32:25",
                 32.25
             ],
-            "Jacket": [
+            "peter": [
                 "00:27:87",
                 27.87
             ]
@@ -594,21 +594,21 @@
     {
         "map": "surf_delusional_",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "12/839",
                 1.43
             ],
-            "Jacket": [
+            "peter": [
                 "5/839",
                 0.6
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:10:72",
                 70.72
             ],
-            "Jacket": [
+            "peter": [
                 "01:07:20",
                 67.2
             ]
@@ -617,21 +617,21 @@
     {
         "map": "surf_derpis_ksf",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "69/5202",
                 1.33
             ],
-            "Jacket": [
+            "peter": [
                 "25/5202",
                 0.48
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:18:98",
                 78.98
             ],
-            "Jacket": [
+            "peter": [
                 "01:17:16",
                 77.16
             ]
@@ -640,21 +640,21 @@
     {
         "map": "surf_dinwod",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/490",
                 1.43
             ],
-            "Jacket": [
+            "peter": [
                 "4/490",
                 0.82
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:58:48",
                 58.48
             ],
-            "Jacket": [
+            "peter": [
                 "00:56:55",
                 56.55
             ]
@@ -663,21 +663,21 @@
     {
         "map": "surf_domain",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "4/67",
                 5.97
             ],
-            "Jacket": [
+            "peter": [
                 "1/67",
                 1.49
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:41:66",
                 41.66
             ],
-            "Jacket": [
+            "peter": [
                 "00:40:75",
                 40.75
             ]
@@ -686,21 +686,21 @@
     {
         "map": "surf_dream",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/239",
                 2.93
             ],
-            "Jacket": [
+            "peter": [
                 "1/239",
                 0.42
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:31:47",
                 31.47
             ],
-            "Jacket": [
+            "peter": [
                 "00:30:51",
                 30.51
             ]
@@ -709,21 +709,21 @@
     {
         "map": "surf_duggywuggy",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "3/59",
                 5.08
             ],
-            "Jacket": [
+            "peter": [
                 "1/59",
                 1.69
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:42:51",
                 42.51
             ],
-            "Jacket": [
+            "peter": [
                 "00:39:49",
                 39.49
             ]
@@ -732,21 +732,21 @@
     {
         "map": "surf_eclipse",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "8/579",
                 1.38
             ],
-            "Jacket": [
+            "peter": [
                 "18/579",
                 3.11
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:43:42",
                 43.42
             ],
-            "Jacket": [
+            "peter": [
                 "00:49:06",
                 49.06
             ]
@@ -755,21 +755,21 @@
     {
         "map": "surf_ethereal",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "29/1052",
                 2.76
             ],
-            "Jacket": [
+            "peter": [
                 "3/1052",
                 0.29
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:07:14",
                 67.14
             ],
-            "Jacket": [
+            "peter": [
                 "01:04:26",
                 64.26
             ]
@@ -778,21 +778,21 @@
     {
         "map": "surf_fade",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "12/136",
                 8.82
             ],
-            "Jacket": [
+            "peter": [
                 "8/136",
                 5.88
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:09:96",
                 69.96
             ],
-            "Jacket": [
+            "peter": [
                 "01:09:08",
                 69.08
             ]
@@ -801,21 +801,21 @@
     {
         "map": "surf_flow",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "22/213",
                 10.33
             ],
-            "Jacket": [
+            "peter": [
                 "4/213",
                 1.88
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:54:15",
                 54.15
             ],
-            "Jacket": [
+            "peter": [
                 "00:52:37",
                 52.37
             ]
@@ -824,21 +824,21 @@
     {
         "map": "surf_forbidden_ways_ksf",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "21/1627",
                 1.29
             ],
-            "Jacket": [
+            "peter": [
                 "3/1627",
                 0.18
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:02:01",
                 62.01
             ],
-            "Jacket": [
+            "peter": [
                 "00:57:25",
                 57.25
             ]
@@ -847,21 +847,21 @@
     {
         "map": "surf_forgotten",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "16/501",
                 3.19
             ],
-            "Jacket": [
+            "peter": [
                 "2/501",
                 0.4
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:40:74",
                 40.74
             ],
-            "Jacket": [
+            "peter": [
                 "00:39:03",
                 39.03
             ]
@@ -870,21 +870,21 @@
     {
         "map": "surf_funhouse_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "15/1423",
                 1.05
             ],
-            "Jacket": [
+            "peter": [
                 "4/1423",
                 0.28
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:58:95",
                 58.95
             ],
-            "Jacket": [
+            "peter": [
                 "00:57:65",
                 57.65
             ]
@@ -893,21 +893,21 @@
     {
         "map": "surf_glamour",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "5/57",
                 8.77
             ],
-            "Jacket": [
+            "peter": [
                 "2/57",
                 3.51
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:30:72",
                 30.72
             ],
-            "Jacket": [
+            "peter": [
                 "00:29:58",
                 29.58
             ]
@@ -916,21 +916,21 @@
     {
         "map": "surf_gleam",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "17/101",
                 16.83
             ],
-            "Jacket": [
+            "peter": [
                 "3/101",
                 2.97
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:38:73",
                 38.73
             ],
-            "Jacket": [
+            "peter": [
                 "00:36:46",
                 36.46
             ]
@@ -939,38 +939,38 @@
     {
         "map": "surf_graphia_fix",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "9/42",
                 21.43
             ],
-            "Jacket": "N/A"
+            "peter": "N/A"
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:52:27",
                 52.27
             ],
-            "Jacket": "N/A"
+            "peter": "N/A"
         }
     },
     {
         "map": "surf_grassland",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "42/897",
                 4.68
             ],
-            "Jacket": [
+            "peter": [
                 "4/897",
                 0.45
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:42:96",
                 42.96
             ],
-            "Jacket": [
+            "peter": [
                 "00:39:50",
                 39.5
             ]
@@ -979,21 +979,21 @@
     {
         "map": "surf_how2surf",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "8/2686",
                 0.3
             ],
-            "Jacket": [
+            "peter": [
                 "3/2686",
                 0.11
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:21:93",
                 81.93
             ],
-            "Jacket": [
+            "peter": [
                 "01:19:83",
                 79.83
             ]
@@ -1002,21 +1002,21 @@
     {
         "map": "surf_hurrr",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "37/290",
                 12.76
             ],
-            "Jacket": [
+            "peter": [
                 "2/290",
                 0.69
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:41:35",
                 41.35
             ],
-            "Jacket": [
+            "peter": [
                 "00:34:27",
                 34.27
             ]
@@ -1025,38 +1025,38 @@
     {
         "map": "surf_impact_tnn",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "10/172",
                 5.81
             ],
-            "Jacket": "N/A"
+            "peter": "N/A"
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:20:17",
                 20.17
             ],
-            "Jacket": "N/A"
+            "peter": "N/A"
         }
     },
     {
         "map": "surf_island",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "17/93",
                 18.28
             ],
-            "Jacket": [
+            "peter": [
                 "1/93",
                 1.08
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:59:74",
                 59.74
             ],
-            "Jacket": [
+            "peter": [
                 "00:57:02",
                 57.02
             ]
@@ -1065,21 +1065,21 @@
     {
         "map": "surf_kitsune",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/5227",
                 0.13
             ],
-            "Jacket": [
+            "peter": [
                 "4/5227",
                 0.08
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:55:31",
                 55.31
             ],
-            "Jacket": [
+            "peter": [
                 "00:54:75",
                 54.75
             ]
@@ -1088,21 +1088,21 @@
     {
         "map": "surf_kz_protraining",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "24/1035",
                 2.32
             ],
-            "Jacket": [
+            "peter": [
                 "22/1035",
                 2.13
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "02:15:91",
                 135.91
             ],
-            "Jacket": [
+            "peter": [
                 "02:13:33",
                 133.33
             ]
@@ -1111,21 +1111,21 @@
     {
         "map": "surf_lament_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/143",
                 4.9
             ],
-            "Jacket": [
+            "peter": [
                 "3/143",
                 2.1
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:57:18",
                 57.18
             ],
-            "Jacket": [
+            "peter": [
                 "00:55:81",
                 55.81
             ]
@@ -1134,21 +1134,21 @@
     {
         "map": "surf_leet_xl_beta7z_",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "106/9391",
                 1.13
             ],
-            "Jacket": [
+            "peter": [
                 "39/9391",
                 0.42
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:16:37",
                 16.37
             ],
-            "Jacket": [
+            "peter": [
                 "00:15:66",
                 15.66
             ]
@@ -1157,21 +1157,21 @@
     {
         "map": "surf_legends_lite_gfl",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "25/2447",
                 1.02
             ],
-            "Jacket": [
+            "peter": [
                 "2/2447",
                 0.08
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:31:62",
                 31.62
             ],
-            "Jacket": [
+            "peter": [
                 "00:30:82",
                 30.82
             ]
@@ -1180,21 +1180,21 @@
     {
         "map": "surf_lessons",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "36/1978",
                 1.82
             ],
-            "Jacket": [
+            "peter": [
                 "1/1978",
                 0.05
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:45:00",
                 45.0
             ],
-            "Jacket": [
+            "peter": [
                 "00:38:50",
                 38.5
             ]
@@ -1203,21 +1203,21 @@
     {
         "map": "surf_life_of_duck_go",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "20/4288",
                 0.47
             ],
-            "Jacket": [
+            "peter": [
                 "7/4288",
                 0.16
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:42:31",
                 42.31
             ],
-            "Jacket": [
+            "peter": [
                 "00:40:94",
                 40.94
             ]
@@ -1226,21 +1226,21 @@
     {
         "map": "surf_lullaby_ksf",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "33/1060",
                 3.11
             ],
-            "Jacket": [
+            "peter": [
                 "1/1060",
                 0.09
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:56:27",
                 56.27
             ],
-            "Jacket": [
+            "peter": [
                 "00:48:60",
                 48.6
             ]
@@ -1249,21 +1249,21 @@
     {
         "map": "surf_lux",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "29/3855",
                 0.75
             ],
-            "Jacket": [
+            "peter": [
                 "7/3855",
                 0.18
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:32:63",
                 32.63
             ],
-            "Jacket": [
+            "peter": [
                 "00:31:61",
                 31.61
             ]
@@ -1272,21 +1272,21 @@
     {
         "map": "surf_me",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "49/1969",
                 2.49
             ],
-            "Jacket": [
+            "peter": [
                 "11/1969",
                 0.56
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "02:01:46",
                 121.46
             ],
-            "Jacket": [
+            "peter": [
                 "01:47:66",
                 107.66
             ]
@@ -1295,21 +1295,21 @@
     {
         "map": "surf_mesa",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "38/9232",
                 0.41
             ],
-            "Jacket": [
+            "peter": [
                 "27/9232",
                 0.29
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:51:43",
                 51.43
             ],
-            "Jacket": [
+            "peter": [
                 "00:51:00",
                 51.0
             ]
@@ -1318,21 +1318,21 @@
     {
         "map": "surf_minuet_v1p",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "40/2131",
                 1.88
             ],
-            "Jacket": [
+            "peter": [
                 "13/2131",
                 0.61
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:42:97",
                 42.97
             ],
-            "Jacket": [
+            "peter": [
                 "00:41:70",
                 41.7
             ]
@@ -1341,21 +1341,21 @@
     {
         "map": "surf_mom",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/4466",
                 0.16
             ],
-            "Jacket": [
+            "peter": [
                 "3/4466",
                 0.07
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:43:78",
                 43.78
             ],
-            "Jacket": [
+            "peter": [
                 "00:42:76",
                 42.76
             ]
@@ -1364,21 +1364,21 @@
     {
         "map": "surf_neo_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "30/372",
                 8.06
             ],
-            "Jacket": [
+            "peter": [
                 "1/372",
                 0.27
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:38:77",
                 38.77
             ],
-            "Jacket": [
+            "peter": [
                 "00:34:31",
                 34.31
             ]
@@ -1387,21 +1387,21 @@
     {
         "map": "surf_network_2008_final",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "8/656",
                 1.22
             ],
-            "Jacket": [
+            "peter": [
                 "1/656",
                 0.15
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:28:71",
                 28.71
             ],
-            "Jacket": [
+            "peter": [
                 "00:24:44",
                 24.44
             ]
@@ -1410,21 +1410,21 @@
     {
         "map": "surf_newb_hazard_r1",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/1433",
                 0.49
             ],
-            "Jacket": [
+            "peter": [
                 "5/1433",
                 0.35
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:21:67",
                 21.67
             ],
-            "Jacket": [
+            "peter": [
                 "00:21:66",
                 21.66
             ]
@@ -1433,21 +1433,21 @@
     {
         "map": "surf_noob",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "30/573",
                 5.24
             ],
-            "Jacket": [
+            "peter": [
                 "1/573",
                 0.17
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:25:25",
                 25.25
             ],
-            "Jacket": [
+            "peter": [
                 "00:22:83",
                 22.83
             ]
@@ -1456,21 +1456,21 @@
     {
         "map": "surf_olympics_sns",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "9/645",
                 1.4
             ],
-            "Jacket": [
+            "peter": [
                 "2/645",
                 0.31
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:38:02",
                 98.02
             ],
-            "Jacket": [
+            "peter": [
                 "01:34:14",
                 94.14
             ]
@@ -1479,21 +1479,21 @@
     {
         "map": "surf_oma",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "26/724",
                 3.59
             ],
-            "Jacket": [
+            "peter": [
                 "3/724",
                 0.41
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:52:98",
                 52.98
             ],
-            "Jacket": [
+            "peter": [
                 "00:50:32",
                 50.32
             ]
@@ -1502,21 +1502,21 @@
     {
         "map": "surf_orthodox_fix",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "19/421",
                 4.51
             ],
-            "Jacket": [
+            "peter": [
                 "3/421",
                 0.71
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "03:26:89",
                 206.89
             ],
-            "Jacket": [
+            "peter": [
                 "03:06:84",
                 186.84
             ]
@@ -1525,21 +1525,21 @@
     {
         "map": "surf_paddy",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "16/146",
                 10.96
             ],
-            "Jacket": [
+            "peter": [
                 "3/146",
                 2.05
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:50:09",
                 50.09
             ],
-            "Jacket": [
+            "peter": [
                 "00:46:78",
                 46.78
             ]
@@ -1548,21 +1548,21 @@
     {
         "map": "surf_paradise",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "11/303",
                 3.63
             ],
-            "Jacket": [
+            "peter": [
                 "3/303",
                 0.99
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:04:26",
                 64.26
             ],
-            "Jacket": [
+            "peter": [
                 "01:02:97",
                 62.97
             ]
@@ -1571,21 +1571,21 @@
     {
         "map": "surf_pox",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "41/3102",
                 1.32
             ],
-            "Jacket": [
+            "peter": [
                 "14/3102",
                 0.45
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:29:12",
                 29.12
             ],
-            "Jacket": [
+            "peter": [
                 "00:28:18",
                 28.18
             ]
@@ -1594,21 +1594,21 @@
     {
         "map": "surf_prelude_ksf",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "42/997",
                 4.21
             ],
-            "Jacket": [
+            "peter": [
                 "15/997",
                 1.5
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:44:63",
                 44.63
             ],
-            "Jacket": [
+            "peter": [
                 "00:43:79",
                 43.79
             ]
@@ -1617,21 +1617,21 @@
     {
         "map": "surf_presmon_fix",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "9/324",
                 2.78
             ],
-            "Jacket": [
+            "peter": [
                 "3/324",
                 0.93
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:38:87",
                 38.87
             ],
-            "Jacket": [
+            "peter": [
                 "00:36:46",
                 36.46
             ]
@@ -1640,21 +1640,21 @@
     {
         "map": "surf_prime_time_r3vamp",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "60/3024",
                 1.98
             ],
-            "Jacket": [
+            "peter": [
                 "61/3024",
                 2.02
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:13:04",
                 13.04
             ],
-            "Jacket": [
+            "peter": [
                 "00:13:04",
                 13.04
             ]
@@ -1663,21 +1663,21 @@
     {
         "map": "surf_rebel_resistance_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "51/6546",
                 0.78
             ],
-            "Jacket": [
+            "peter": [
                 "6/6546",
                 0.09
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:24:64",
                 24.64
             ],
-            "Jacket": [
+            "peter": [
                 "00:23:81",
                 23.81
             ]
@@ -1686,21 +1686,21 @@
     {
         "map": "surf_Rebel_scaz_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "46/4713",
                 0.98
             ],
-            "Jacket": [
+            "peter": [
                 "4/4713",
                 0.08
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:20:21",
                 20.21
             ],
-            "Jacket": [
+            "peter": [
                 "00:19:30",
                 19.3
             ]
@@ -1709,21 +1709,21 @@
     {
         "map": "surf_reprise",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "42/2960",
                 1.42
             ],
-            "Jacket": [
+            "peter": [
                 "12/2960",
                 0.41
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:04:58",
                 64.58
             ],
-            "Jacket": [
+            "peter": [
                 "01:02:40",
                 62.4
             ]
@@ -1732,21 +1732,21 @@
     {
         "map": "surf_reytx",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "16/2275",
                 0.7
             ],
-            "Jacket": [
+            "peter": [
                 "3/2275",
                 0.13
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:49:75",
                 49.75
             ],
-            "Jacket": [
+            "peter": [
                 "00:47:91",
                 47.91
             ]
@@ -1755,21 +1755,21 @@
     {
         "map": "surf_rez",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "9/756",
                 1.19
             ],
-            "Jacket": [
+            "peter": [
                 "2/756",
                 0.26
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:32:21",
                 92.21
             ],
-            "Jacket": [
+            "peter": [
                 "01:29:30",
                 89.3
             ]
@@ -1778,21 +1778,21 @@
     {
         "map": "surf_rooftopsv2",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "9/1504",
                 0.6
             ],
-            "Jacket": [
+            "peter": [
                 "3/1504",
                 0.2
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:15:59",
                 75.59
             ],
-            "Jacket": [
+            "peter": [
                 "01:13:74",
                 73.74
             ]
@@ -1801,21 +1801,21 @@
     {
         "map": "surf_rookie",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "16/2837",
                 0.56
             ],
-            "Jacket": [
+            "peter": [
                 "3/2837",
                 0.11
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "02:39:42",
                 159.42
             ],
-            "Jacket": [
+            "peter": [
                 "02:34:66",
                 154.66
             ]
@@ -1824,21 +1824,21 @@
     {
         "map": "surf_saturday_fix",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "13/97",
                 13.4
             ],
-            "Jacket": [
+            "peter": [
                 "3/97",
                 3.09
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:51:31",
                 51.31
             ],
-            "Jacket": [
+            "peter": [
                 "00:48:46",
                 48.46
             ]
@@ -1847,21 +1847,21 @@
     {
         "map": "surf_simpsons_go_rc2",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "82/4829",
                 1.7
             ],
-            "Jacket": [
+            "peter": [
                 "3/4829",
                 0.06
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:24:43",
                 84.43
             ],
-            "Jacket": [
+            "peter": [
                 "01:07:74",
                 67.74
             ]
@@ -1870,21 +1870,21 @@
     {
         "map": "surf_singletons_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "19/534",
                 3.56
             ],
-            "Jacket": [
+            "peter": [
                 "2/534",
                 0.37
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:30:14",
                 30.14
             ],
-            "Jacket": [
+            "peter": [
                 "00:27:86",
                 27.86
             ]
@@ -1893,21 +1893,21 @@
     {
         "map": "surf_skeelee",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "12/2632",
                 0.46
             ],
-            "Jacket": [
+            "peter": [
                 "2/2632",
                 0.08
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:37:33",
                 37.33
             ],
-            "Jacket": [
+            "peter": [
                 "00:36:04",
                 36.04
             ]
@@ -1916,21 +1916,21 @@
     {
         "map": "surf_skyborn",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/226",
                 3.1
             ],
-            "Jacket": [
+            "peter": [
                 "3/226",
                 1.33
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:57:04",
                 57.04
             ],
-            "Jacket": [
+            "peter": [
                 "00:55:12",
                 55.12
             ]
@@ -1939,21 +1939,21 @@
     {
         "map": "surf_spacejam",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "29/2812",
                 1.03
             ],
-            "Jacket": [
+            "peter": [
                 "1/2812",
                 0.04
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:12:94",
                 72.94
             ],
-            "Jacket": [
+            "peter": [
                 "01:09:45",
                 69.45
             ]
@@ -1962,21 +1962,21 @@
     {
         "map": "surf_starfire_csgo",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "14/208",
                 6.73
             ],
-            "Jacket": [
+            "peter": [
                 "1/208",
                 0.48
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:48:19",
                 48.19
             ],
-            "Jacket": [
+            "peter": [
                 "00:46:10",
                 46.1
             ]
@@ -1985,21 +1985,21 @@
     {
         "map": "surf_sundown_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "20/626",
                 3.19
             ],
-            "Jacket": [
+            "peter": [
                 "9/626",
                 1.44
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:01:99",
                 61.99
             ],
-            "Jacket": [
+            "peter": [
                 "01:00:24",
                 60.24
             ]
@@ -2008,21 +2008,21 @@
     {
         "map": "surf_surprise",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "7/423",
                 1.65
             ],
-            "Jacket": [
+            "peter": [
                 "3/423",
                 0.71
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:41:36",
                 41.36
             ],
-            "Jacket": [
+            "peter": [
                 "00:39:84",
                 39.84
             ]
@@ -2031,21 +2031,21 @@
     {
         "map": "surf_the_gloaming",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "17/936",
                 1.82
             ],
-            "Jacket": [
+            "peter": [
                 "8/936",
                 0.85
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:45:59",
                 45.59
             ],
-            "Jacket": [
+            "peter": [
                 "00:44:80",
                 44.8
             ]
@@ -2054,21 +2054,21 @@
     {
         "map": "surf_trance_ksf",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "73/1987",
                 3.67
             ],
-            "Jacket": [
+            "peter": [
                 "23/1987",
                 1.16
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:51:62",
                 51.62
             ],
-            "Jacket": [
+            "peter": [
                 "00:48:78",
                 48.78
             ]
@@ -2077,21 +2077,21 @@
     {
         "map": "surf_utopia_njv",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "49/4594",
                 1.07
             ],
-            "Jacket": [
+            "peter": [
                 "13/4594",
                 0.28
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:49:65",
                 49.65
             ],
-            "Jacket": [
+            "peter": [
                 "00:48:73",
                 48.73
             ]
@@ -2100,21 +2100,21 @@
     {
         "map": "surf_water-run_banjo_skill",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "76/7157",
                 1.06
             ],
-            "Jacket": [
+            "peter": [
                 "1/7157",
                 0.01
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:38:87",
                 38.87
             ],
-            "Jacket": [
+            "peter": [
                 "00:35:53",
                 35.53
             ]
@@ -2123,21 +2123,21 @@
     {
         "map": "surf_waterworks",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "32/658",
                 4.86
             ],
-            "Jacket": [
+            "peter": [
                 "10/658",
                 1.52
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "01:21:52",
                 81.52
             ],
-            "Jacket": [
+            "peter": [
                 "01:18:14",
                 78.14
             ]
@@ -2146,21 +2146,21 @@
     {
         "map": "surf_year3000",
         "ranks": {
-            "Terry": [
+            "al1": [
                 "35/1497",
                 2.34
             ],
-            "Jacket": [
+            "peter": [
                 "55/1497",
                 3.67
             ]
         },
         "times": {
-            "Terry": [
+            "al1": [
                 "00:17:56",
                 17.56
             ],
-            "Jacket": [
+            "peter": [
                 "00:17:75",
                 17.75
             ]
