@@ -156,11 +156,16 @@ class CompareFormatter():
 
 		self.compareData = compareData
 
-	def createFormattedJSON(self):
+	def createJSON(self):
 		FILE_NAME = "{}&{}".format(self.player1, self.player2)
 		FILE_PATH = "FormattedCompares/{}.json".format(FILE_NAME)
 		with open(FILE_PATH, 'w+') as fo:
 			json.dump(self.compareData, fo, indent=4)
+		print("Formatted JSON file has been created\nName: {}\nPath: {}".format(FILE_NAME, FILE_PATH))
+
+	def getPath(self):
+		FILE_NAME = "{}&{}".format(self.player1, self.player2)
+		return "FormattedCompares/{}.json".format(FILE_NAME)
 
 
 
