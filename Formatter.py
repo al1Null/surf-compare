@@ -1,6 +1,6 @@
 import json
 
-class CompareFormatter():
+class Formatter():
 
 	RAW_PATH = 'raw_data/'
 	MAPS_PATH = 'maps.txt'
@@ -11,8 +11,8 @@ class CompareFormatter():
 	def __init__(self, player1, player2):
 		self.player1 = player1
 		self.player2 = player2
-		self.p1_file = CompareFormatter.RAW_PATH + self.player1 + '.txt' 
-		self.p2_file = CompareFormatter.RAW_PATH + self.player2 + '.txt'
+		self.p1_file = Formatter.RAW_PATH + self.player1 + '.txt' 
+		self.p2_file = Formatter.RAW_PATH + self.player2 + '.txt'
 
 		with open(self.p1_file, 'r') as f:
 			self.raw_data1 = f.readlines()
@@ -129,8 +129,8 @@ class CompareFormatter():
 		compareData = []
 		map_index = 0
 
-		while map_index < len(CompareFormatter.maps):
-			map_ = CompareFormatter.maps[map_index]
+		while map_index < len(Formatter.maps):
+			map_ = Formatter.maps[map_index]
 			d = {'map': map_}
 
 			d['ranks'] = {}

@@ -1,8 +1,8 @@
 import os
 
-class CompareValidator():
+class Validator():
 	"""
-	Validates the
+	Validates the cmd args and data
 	"""
 	PATH = 'raw_data/'
 
@@ -16,7 +16,7 @@ class CompareValidator():
 		"""
 		checks the raw_data/ dir to see if both players' data files are there
 		"""
-		file_names = os.listdir(CompareValidator.PATH)
+		file_names = os.listdir(Validator.PATH)
 		names = [name.lower()[:-4] for name in file_names]
 		
 		not_founds = []
@@ -40,8 +40,8 @@ class CompareValidator():
 		"""
 		self.player1_raw_data = []
 		self.player2_raw_data = []
-		PLAYER1_PATH = CompareValidator.PATH + self.player1 + '.txt'
-		PLAYER2_PATH = CompareValidator.PATH + self.player2 + '.txt'
+		PLAYER1_PATH = Validator.PATH + self.player1 + '.txt'
+		PLAYER2_PATH = Validator.PATH + self.player2 + '.txt'
 
 		with open(PLAYER1_PATH, 'r') as f:
 			for line in f.readlines():
