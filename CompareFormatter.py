@@ -2,16 +2,17 @@ import json
 
 class CompareFormatter():
 
+	RAW_PATH = 'raw_data/'
 	MAPS_PATH = 'maps.txt'
 	with open(MAPS_PATH, 'r') as f:
 		maps = [map_.strip() for map_ in f.readlines()]
 
 
-	def __init__(self, player1, player2, p1_file, p2_file):
+	def __init__(self, player1, player2):
 		self.player1 = player1
 		self.player2 = player2
-		self.p1_file = p1_file
-		self.p2_file = p2_file
+		self.p1_file = CompareFormatter.RAW_PATH + self.player1 + '.txt' 
+		self.p2_file = CompareFormatter.RAW_PATH + self.player2 + '.txt'
 
 		with open(self.p1_file, 'r') as f:
 			self.raw_data1 = f.readlines()
@@ -22,7 +23,9 @@ class CompareFormatter():
 
 	@staticmethod
 	def parseFormat(raw_data):
-
+		""" 
+		parses through the raw data and formats it
+		"""
 		formatted_data = []
 		parsed_data = []
 
@@ -45,11 +48,18 @@ class CompareFormatter():
 		return formatted_data
 
 	def parseFormatData(self):
+		""" 
+		calls parseFormat() on the raw data for each player
+		"""
 		self.data1 = self.parseFormat(self.raw_data1)
 		self.data2 = self.parseFormat(self.raw_data2)
 
 
 	def addSecond(self):
+		"""
+		adds 'time_second' to data dict
+		this is needed for further analysis / comparing
+		"""
 		index = 0
 		for entry in self.data1:
 			time_sec = 0
@@ -80,6 +90,10 @@ class CompareFormatter():
 
 
 	def addPercent(self):
+		"""
+		adds 'rank_percent' to data dict
+		this is needed for further analysis / comparing
+		"""
 		index = 0
 		for entry in self.data1:
 			rank = entry['rank'].split('/')
@@ -107,13 +121,15 @@ class CompareFormatter():
 
 
 	def comparePlayersFormat(self):
-
+		"""
+		formats the data into a json/ dict structure
+		so it can easily be compared and analyzed
+		(see bottom of file for structure)
+		"""
 		compareData = []
-
 		map_index = 0
 
 		while map_index < len(CompareFormatter.maps):
-
 			map_ = CompareFormatter.maps[map_index]
 			d = {'map': map_}
 
@@ -157,34 +173,43 @@ class CompareFormatter():
 		self.compareData = compareData
 
 	def createJSON(self):
+		"""
+		creates and writes to the json file 
+		for the neatly formatted data
+		"""
 		FILE_NAME = "{}&{}".format(self.player1, self.player2)
-		FILE_PATH = "FormattedCompares/{}.json".format(FILE_NAME)
+		FILE_PATH = "formatted_compares/{}.json".format(FILE_NAME)
 		with open(FILE_PATH, 'w+') as fo:
 			json.dump(self.compareData, fo, indent=4)
-		print("Formatted JSON file has been created\nName: {}\nPath: {}".format(FILE_NAME, FILE_PATH))
+		print("Formatted JSON file has been successfully created! (Path: {})".format(FILE_PATH))
 
 	def getPath(self):
+		"""
+		returns the path of the formatted json file
+		"""
 		FILE_NAME = "{}&{}".format(self.player1, self.player2)
-		return "FormattedCompares/{}.json".format(FILE_NAME)
+		return "formatted_compares/{}.json".format(FILE_NAME)
 
 
 
 
-### return an error, check each map completions of each map,
-### ensure that all of them are equal
-### ie if playerone is 12/438 on a map
-### player2's time must be in form n/438
-### --- total map completeing have to equal --
 
-# pring compare should return one dict 
+##### FORMATTING OF DATA JSON/DICT
 # {
 # 	'map': 'surf_map_name',
 # 	'times': {
 # 		'player1': ['normal_time', 'seconds_time'],
-# 		'player1': ['normal_time', 'seconds_time']
+# 		'player2': ['normal_time', 'seconds_time']
 # 		},
 # 	'ranks': {
-# 		'player1': ['normal_rank', 'rank_percentage?'],
-# 		'player1': ['normal_rank', 'rank_percentage?']
+# 		'player1': ['normal_rank', 'rank_percentage'],
+# 		'player2': ['normal_rank', 'rank_percentage']
 # 		}
 # }
+# 
+# 'normal_time' format     - '0X:0X:0X'
+# 'seconds_time' format    -  00X
+# 'normal_rank' format     - '0X/0Y'
+# 'rank_percentage' format -  0.0X
+# 
+#####
