@@ -2,13 +2,12 @@ import sys
 import argparse
 
 ### importing modules
-from CompareValidator import CompareValidator
-from CompareFormatter import CompareFormatter
+from Validator import Validator
+from Formatter import Formatter
 
 ###
 # python Compare.py Albert Clark6
 ###
-
 
 ### file being run directly
 if __name__ == "__main__":
@@ -22,7 +21,7 @@ if __name__ == "__main__":
 	player2 = args.player2
 
 	##### VALIDATION #####
-	validator = CompareValidator(player1, player2)
+	validator = Validator(player1, player2)
 
 	if not validator.isValidEntries():
 		sys.exit(0)
@@ -43,7 +42,7 @@ if __name__ == "__main__":
 
 
 	##### FORMATTING #####
-	formatter = CompareFormatter(player1, player2)
+	formatter = Formatter(player1, player2)
 
 	formatter.parseFormatData()
 	formatter.addPercent()
@@ -54,11 +53,12 @@ if __name__ == "__main__":
 	# now we have the path to the formatted data, we can start comparing the maps, times, and ranks.
 	FORMATTED_DATA_PATH = formatter.getPath() ### YAY now we can actually start comparing
 
+
 	##### COMPARING ######
-	### COMPARING MAPS ###
+	### MAPS COMPARE ###
 
-	### COMPARING TIMES ###
+	### TIMES COMPARE ###
 
-	### COMPARING RANKS ###
+	### RANKS COMPARE ###
 
 			
