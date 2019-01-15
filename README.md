@@ -2,11 +2,14 @@
 csgo surf times compare b/w users
 
 
-How does it work?
+# How does it work?
 .txt files of both users' data needs to be placed in the raw_data/ folder
-they need to be formatted accordingly:
-  where the name of each file the the name of player followed by .txt
-  
+
+### each file needs to be formatted accordingly:
+where the name of the file is the name of player (and file type is a .txt)
+
+
+### Example of what the player.txt should look like:
   ```
   surf_4head_csgo, Time: 01:07:13, Rank: 42/74
   surf_ace_fix, Time: 00:44:14, Rank: 39/3759
@@ -24,13 +27,13 @@ raw_data/
 formatted_compares/
 
 
-### files ####
-# Compare.py
-# Validator.py
-# Formatter.py
-# CompareMaps.py
-# CompareTimes.py
-# CompareRanks.py
+# files
+### Compare.py
+### Validator.py
+### Formatter.py
+### CompareMaps.py
+### CompareTimes.py
+### CompareRanks.py
 
-### Dependancies ###
+### Dependancies
 sys, os, json, argparse
