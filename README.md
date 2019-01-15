@@ -1,11 +1,11 @@
 # surf-compare
-csgo surf times compare b/w users
-
+Compare csgo surf stats
 
 # How does it work?
 .txt files of both users' data needs to be placed in the raw_data/ folder
 
-### each file needs to be formatted accordingly:
+
+### Each file needs to be formatted accordingly:
 where the name of the file is the name of player (and file type is a .txt)
 
 
