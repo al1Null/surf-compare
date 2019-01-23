@@ -1,8 +1,11 @@
 # surf-compare
 Compare csgo surf stats
+Surf-Compare allows you to compare you csgo surf game stats against another players'
 
 # How does it work?
-## 1. Get the Data
+## 1. Get the Data (Game stats)
+You need to retive the game stats of the two players you want to compare.
+You'll most likely want to compare your own with another player.
 ## 2. Enter your Data
 Each file needs to be formatted accordingly:
   txt files of both users' data needs to be placed in the raw_data/ folder
@@ -40,11 +43,18 @@ formatted_compares/
 
 # files
 ### Compare.py
+Main file to be run
 ### Validator.py
+Ensures that the data entered is valid
 ### Formatter.py
+Formats the raw data to then be analized
 ### CompareMaps.py
+Compares map stats
 ### CompareTimes.py
+Compares time stats
 ### CompareRanks.py
+Compares rank stats
 
 ### Dependancies
+python3 (python3.5 or great preferabliy)
 sys, os, json, argparse
