@@ -4,6 +4,8 @@ import argparse
 ### importing modules
 from Validator import Validator
 from Formatter import Formatter
+from CompareMaps import CompareMaps
+from CompareTimes import CompareTimes
 
 ###
 # python Compare.py Albert Clark6
@@ -56,8 +58,42 @@ if __name__ == "__main__":
 
 	##### COMPARING ######
 	### MAPS COMPARE ###
+	compareMaps = CompareMaps(FORMATTED_DATA_PATH)
+	player1_uncompleted_maps = compareMaps.uncompletedMaps(1)
+	player2_uncompleted_maps = compareMaps.uncompletedMaps(2)
+	neither_completed_maps = compareMaps.neitherCompletedMaps()
+	both_completed_maps = compareMaps.bothCompletedMaps()
+	player1_unique_completed_maps = compareMaps.uniqueCompletedMaps(1)
+	player2_unique_completed_maps = compareMaps.uniqueCompletedMaps(2)
+
+	# Maps Compare output
+	print()
+	print("There are {} maps that {} has not completed\n They are: {}\n".format(len(player1_uncompleted_maps), player1, player1_uncompleted_maps))
+	print("There are {} maps that {} has not completed\n They are: {}\n".format(len(player2_uncompleted_maps), player2, player2_uncompleted_maps))
+	print()
+	print("There are {} maps that both players have not completed\n They are: {}\n".format(len(neither_completed_maps), neither_completed_maps))
+	print("There are {} maps that both players have completed\n They are: {}\n".format(len(both_completed_maps), both_completed_maps))
+	print()
+	print("here are {} maps that {} has completed that {} has not\n They are {}\n".format(len(player1_unique_completed_maps), player1, player2, player1_unique_completed_maps))
+	print("here are {} maps that {} has completed that {} has not\n They are {}\n".format(len(player2_unique_completed_maps), player2, player1, player2_unique_completed_maps))
+	print()
 
 	### TIMES COMPARE ###
+	compareTimes = CompareTimes(FORMATTED_DATA_PATH)
+	shared_maps = compareTimes.getSharedMaps()
+	player1_better_count = getBetterCount(player1)
+	player2_better_count = getBetterCount(player2)
+	
+
+	# Times Compare output
+	print("{} has a better time on {}/{} maps compared to {}".format(player1, player1_better_count, len(shared_maps), player2))
+	print("{{ has a better time on {}/{} maps compared to {}".format(player2, player2_better_count, len(shared_maps), player1))
+
+	for map_ in shared_maps:
+		better_player = compareTimes.getBetterPlayer(map_)
+		worse_player = compareTime.getWorsePlayer(map_)
+		time_difference = compareTimes.getTimeDifference(map_, better_player)
+		print("{} beat {} by {}s on {}".format(better_player, worse_player, time_differnce, map_))
 
 	### RANKS COMPARE ###
 
