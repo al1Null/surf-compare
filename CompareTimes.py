@@ -35,21 +35,67 @@ class CompareTimes():
 		"""
 		return self.shared_maps
 
+
+	def getBetterPlayer(self, map_):
+		"""function gets the player with the better time on a given map
+		@param map (str) - 
+		@return 
+		"""
+		if map_ not in self.shared_maps:
+			return None # players need to both have completed the map
+		else:
+			for data in self.compare_data:
+				if map_ == data['map']:
+					player_1_time = data['times'][self.player1][1]
+					player_2_time = data['times'][self.player2][1]
+					if player_1_time < player_2_time:
+						return self.player1
+					elif player_2_time < player_1_time:
+						return self.player2
+					else:
+						return None # rare case if same time
+
+	
+	def getWorsePlayer(self, map_):
+		""""""
+		if map_ not in self.shared_maps:
+			return None # players need to both have completed the map
+		else:
+			for data in self.compare_data:
+				if map_ == data['map']:
+					player_1_time = data['times'][self.player1][1]
+					player_2_time = data['times'][self.player2][1]
+					if player_1_time > player_2_time:
+						return self.player1
+					elif player_2_time > player_1_time:
+						return self.player2
+					else:
+						return None # rare case if same time
+
+
 	def getBetterCount(self, player):
 		"""function gets the number of maps that a given player has a better time on
 		@param player (str) - name of the player
 		@return count (int) - number of maps
 		"""
-		pass
+		count = 0
+		for map_ in self.shared_maps:
+			better_player = self.getBetterPlayer(map_)
+			if better_player == player:
+				count += 1
+			else:
+				pass
 
-	def getBetterPlayer(self, map):
-		"""function gets the player with the better time on a given map
-		@param map (str) -
-		@return 
-		"""
-		pass
+		return count
 
-	def getTimeDifference(self, map):
+
+
+	def getTimeDifference(self, map_):
 		""""""
-		pass
+		for data in self.compare_data:
+			if data['map'] == map_:
+				player_1_time = data['times'][self.player1][1]
+				player_2_time = data['times'][self.player2][1]
+				difference = abs(player_1_time - player_2_time)
+				return difference
 
