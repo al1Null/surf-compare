@@ -7,6 +7,7 @@ from Validator import Validator
 from Formatter import Formatter
 from CompareMaps import CompareMaps
 from CompareTimes import CompareTimes
+from CompareRanks import CompareRanks
 
 ###
 # python Compare.py Albert Clark6
@@ -124,10 +125,66 @@ if __name__ == "__main__":
 		worse_player = compareTimes.getWorsePlayer(map_)
 		time_difference = compareTimes.getTimeDifference(map_)
 		time_difference = round(time_difference, 3)
-		print("{} beat {} by {}s on {}".format(better_player, worse_player, time_difference, map_))
+		print("{} beat {} by {:2.2f}s on {}".format(better_player, worse_player, time_difference, map_))
 	
 	print()
 
 	### RANKS COMPARE ###
 
-			
+	compareRanks = CompareRanks(FORMATTED_DATA_PATH, player1, player2)
+	shared_maps = compareRanks.getSharedMaps()
+
+	print('''############################### 
+######## RANKS COMPARE ########
+###############################\n''')
+
+	for player in (player1, player2):
+		_50_percentile_maps = compareRanks.get50PercentileMaps(player)
+		_25_percentile_maps = compareRanks.get25PercentileMaps(player)
+		_10_percentile_maps = compareRanks.get10PercentileMaps(player)
+		_05_percentile_maps = compareRanks.get05PercentileMaps(player)
+		_01_percentile_maps = compareRanks.get01PercentileMaps(player)
+		half_percentile_maps = compareRanks.getHalfPercentileMaps(player)
+
+		# print("There are {} maps where {} is in the top 50 percentile.".format(len(_50_percentile_maps), player))
+		# if len(_50_percentile_maps) is not 0:
+		# 	print("They are:\n\t", "\n\t".join(_50_percentile_maps), sep='')
+
+		# print('\n')
+
+		print("There are {} maps where {} is in the top 25 percentile.".format(len(_25_percentile_maps), player))
+		if len(_25_percentile_maps) is not 0:
+			print("They are:\n\t", "\n\t".join(_25_percentile_maps), sep='')
+
+		print('\n')
+
+		print("There are {} maps where {} is in the top 10 percentile.".format(len(_10_percentile_maps), player))
+		if len(_10_percentile_maps) is not 0:
+			print("They are:\n\t", "\n\t".join(_10_percentile_maps), sep='')
+
+		print('\n')
+
+		# print("There are {} maps where {} is in the top 5 percentile.".format(len(_05_percentile_maps), player))
+		# if len(_05_percentile_maps) is not 0:
+		# 	print("They are:\n\t", "\n\t".join(_05_percentile_maps), sep='')
+
+		# print('\n')
+
+		print("There are {} maps where {} is in the top 1 percentile.".format(len(_01_percentile_maps), player))
+		if len(_01_percentile_maps) is not 0:
+			print("They are:\n\t", "\n\t".join(_01_percentile_maps), sep='')
+
+		print('\n')
+
+		# print("There are {} maps where {} is in the top half of 1 percentile.".format(len(half_percentile_maps), player))
+		# if len(half_percentile_maps) is not 0:
+		# 	print("They are:\n\t", "\n\t".join(half_percentile_maps), sep='')
+		# print('\n')
+
+
+	for map_ in shared_maps:
+		better_player = compareRanks.getBetterPlayer(map_)
+		worse_player = compareRanks.getWorsePlayer(map_)
+		rank_difference = compareRanks.getRankDifference(map_)
+		print("{} is {:4d} ranks ahead of {} on {}".format(better_player, rank_difference, worse_player, map_))
+
