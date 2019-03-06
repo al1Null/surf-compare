@@ -75,32 +75,32 @@ if __name__ == "__main__":
 
 	print("There are {} maps that {} has not completed.".format(len(player1_uncompleted_maps), player1))
 	if len(player1_uncompleted_maps) is not 0:
-		print("They are:\n\t", "\n\t".join(player1_uncompleted_maps), sep='')
+		print("They are:\n\t", ", ".join(player1_uncompleted_maps), sep='')
 	print('\n')
 
 	print("There are {} maps that {} has not completed.".format(len(player2_uncompleted_maps), player2))
 	if len(player2_uncompleted_maps) is not 0:
-		print("They are:\n\t", "\n\t".join(player2_uncompleted_maps), sep='')
+		print("They are:\n\t", ", ".join(player2_uncompleted_maps), sep='')
 	print('\n')
 
 	print("There are {} maps that both players have not completed.".format(len(neither_completed_maps)))
 	if len(neither_completed_maps) is not 0:
-		print("They are:\n\t", "\n\t".join(neither_completed_maps), sep='')
+		print("They are:\n\t", ", ".join(neither_completed_maps), sep='')
 	print('\n')
 
 	print("There are {} maps that both players have completed.".format(len(both_completed_maps)))
 	if len(both_completed_maps) is not 0:
-		print("They are:\n\t", "\n\t".join(both_completed_maps), sep='')
+		print("They are:\n\t", ", ".join(both_completed_maps), sep='')
 	print('\n')
 
 	print("There are {} maps that {} has completed that {} has not".format(len(player1_unique_completed_maps), player1, player2))
 	if len(player1_unique_completed_maps) is not 0:
-		print("They are:\n\t", "\n\t".join(player1_unique_completed_maps), sep='')
+		print("They are:\n\t", ", ".join(player1_unique_completed_maps), sep='')
 	print('\n')
 
 	print("There are {} maps that {} has completed that {} has not.".format(len(player2_unique_completed_maps), player2, player1))
 	if len(player2_unique_completed_maps) is not 0:
-		print("They are:\n\t", "\n\t".join(player2_unique_completed_maps), sep='')
+		print("They are:\n\t", ", ".join(player2_unique_completed_maps), sep='')
 	print('\n')
 
 
@@ -154,13 +154,13 @@ if __name__ == "__main__":
 
 		print("There are {} maps where {} is in the top 25 percentile.".format(len(_25_percentile_maps), player))
 		if len(_25_percentile_maps) is not 0:
-			print("They are:\n\t", "\n\t".join(_25_percentile_maps), sep='')
+			print("They are:\n\t", ", ".join(_25_percentile_maps), sep='')
 
 		print('\n')
 
 		print("There are {} maps where {} is in the top 10 percentile.".format(len(_10_percentile_maps), player))
 		if len(_10_percentile_maps) is not 0:
-			print("They are:\n\t", "\n\t".join(_10_percentile_maps), sep='')
+			print("They are:\n\t", ", ".join(_10_percentile_maps), sep='')
 
 		print('\n')
 
@@ -172,7 +172,7 @@ if __name__ == "__main__":
 
 		print("There are {} maps where {} is in the top 1 percentile.".format(len(_01_percentile_maps), player))
 		if len(_01_percentile_maps) is not 0:
-			print("They are:\n\t", "\n\t".join(_01_percentile_maps), sep='')
+			print("They are:\n\t", ", ".join(_01_percentile_maps), sep='')
 
 		print('\n')
 
