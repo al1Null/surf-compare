@@ -95,17 +95,20 @@ class CompareRanks():
 		return _05_percentile_maps
 
 	def get01PercentileMaps(self, player):
-		""""""
-		_25_percentile_maps = []
+		"""
+		gets all the maps where the player 
+		is ranked in the top 1 percentile
+		"""
+		_01_percentile_maps = []
 		for data in self.compare_data:
 			map_ = data['map']
 			if data['ranks'][player] == 'N/A':
 				continue
 			percentile = data['ranks'][player][1]
 			if percentile < 1:
-				_25_percentile_maps.append(map_)
+				_01_percentile_maps.append(map_)
 
-		return _25_percentile_maps
+		return _01_percentile_maps
 
 
 	def getHalfPercentileMaps(self, player):
