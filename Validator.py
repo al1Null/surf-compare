@@ -14,7 +14,7 @@ class Validator():
 
 	def isValidEntries(self):
 		"""
-		checks the raw_data/ dir to see if both players' data files are there
+		checks the raw_data/ dir to see if both players' data files are present
 		"""
 		file_names = os.listdir(Validator.PATH)
 		names = [name.lower()[:-4] for name in file_names]
@@ -30,12 +30,12 @@ class Validator():
 			return True
 		else:
 			for player in not_founds:
-				print(player + "'s data file is not found in 'raw_data/' directory. \nDouble check that it's there, and that it was entered correctly.")
+				print(player + '''s data file is not found in 'raw_data/' directory. 
+					Double check that it's there, and that it was entered correctly.''')
 			return False
 
 	def constructRawData(self):
 		"""
-
 		can only be run after isValidEntries() is True
 		"""
 		self.player1_raw_data = []
@@ -72,7 +72,7 @@ class Validator():
 		return True
 
 	def isSyncedData(self):
-		"""methods tests that each entry data for both users is in sync with one-another"""
+		"""method tests that the entry data for both users is in sync with one-another"""
 		player1s_map_completes = []
 		player2s_map_completes = []
 		shared_entries = []
@@ -100,6 +100,8 @@ class Validator():
 			return True
 		else:
 			return False
+
+
 
 	# def __str__(self):
 	# 	""" """
