@@ -4,21 +4,27 @@ class Formatter():
 
 	RAW_PATH = 'raw_data/'
 	MAPS_PATH = 'maps.txt'
-	with open(MAPS_PATH, 'r') as f:
-		maps = [map_.strip() for map_ in f.readlines()]
-
 
 	def __init__(self, player1, player2):
+		"""
+		construct both players data, and list of all maps
+		"""
 		self.player1 = player1
 		self.player2 = player2
 		self.p1_file = Formatter.RAW_PATH + self.player1 + '.txt' 
 		self.p2_file = Formatter.RAW_PATH + self.player2 + '.txt'
 
+		### player one data
 		with open(self.p1_file, 'r') as f:
 			self.raw_data1 = f.readlines()
 
+		### player two data
 		with open(self.p2_file, 'r') as f:
 			self.raw_data2 = f.readlines()
+
+		### list of all maps
+		with open(Formatter.MAPS_PATH, 'r') as f:
+			self.maps = [map_.strip() for map_ in f.readlines()]
 
 
 	@staticmethod
@@ -57,36 +63,40 @@ class Formatter():
 
 	def addSecond(self):
 		"""
-		adds 'time_second' to data dict
+		adds 'time_second' to data dict of both players
 		this is needed for further analysis / comparing
 		"""
-		index = 0
+		### player one's data
+		index_1 = 0
 		for entry in self.data1:
+			### getting time in seconds
 			time_sec = 0
-
 			t = entry['time'].split(':')
 
 			time_sec += int(t[0]) * 60  
 			time_sec += int(t[1])
 			time_sec += float('.' + t[2])
 
+			### add to data dict
 			entry['time_second'] = time_sec
-			self.data1[index] = entry
-			index += 1
+			self.data1[index_1] = entry
+			index_1 += 1
 
-		index = 0
+		### player two's data
+		index_2 = 0
 		for entry in self.data2:
+			### getting time in seconds
 			time_sec = 0
-
 			t = entry['time'].split(':')
 
 			time_sec += int(t[0]) * 60  
 			time_sec += int(t[1])
 			time_sec += float('.' + t[2])
-
+			
+			### add to data dict
 			entry['time_second'] = time_sec
-			self.data2[index] = entry
-			index += 1
+			self.data2[index_2] = entry
+			index_2 += 1
 
 
 	def addPercent(self):
@@ -101,7 +111,6 @@ class Formatter():
 			numerator = int(rank[0])
 			denominator = int(rank[1])
 			percentage = round((100 * (numerator/denominator)), 2)
-
 
 			entry['rank_percent'] = percentage
 			self.data1[index] = entry
@@ -129,8 +138,8 @@ class Formatter():
 		compareData = []
 		map_index = 0
 
-		while map_index < len(Formatter.maps):
-			map_ = Formatter.maps[map_index]
+		while map_index < len(self.maps):
+			map_ = self.maps[map_index]
 			d = {'map': map_}
 
 			d['ranks'] = {}
@@ -174,8 +183,7 @@ class Formatter():
 
 	def createJSON(self):
 		"""
-		creates and writes to the json file 
-		for the neatly formatted data
+		writes neatly formatted data to a json file
 		"""
 		FILE_NAME = "{}&{}".format(self.player1, self.player2)
 		FILE_PATH = "formatted_compares/{}.json".format(FILE_NAME)
